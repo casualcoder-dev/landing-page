@@ -3,10 +3,27 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    font-family: roboto;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
+    height: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 20px;
 }
