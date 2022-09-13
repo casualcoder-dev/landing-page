@@ -28,3 +28,8 @@ body {
     text-decoration: none;
     margin-left: 20px;
 }
+
+.hero-section {
+    height: 550px;
+    background-color: #1F2937;
+}
