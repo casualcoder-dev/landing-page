@@ -6,6 +6,8 @@ body {
     font-family: roboto;
 }
 
+ /* Header section */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -13,20 +15,12 @@ body {
     background-color: #1F2937;
     height: 70px;
     padding-left: 270px;
-    padding-right: 408px;
+    padding-right: 338px;
 }
 
 .logo {
     height: 350px;
     margin-top: 35px;
-}
-
-
-.header-link {
-    color: #E5E7EB;
-    font-size: 18px;
-    margin-left: 20px;
-
 }
 
 ul {
@@ -41,8 +35,10 @@ a {
     margin-left: 20px;
 }
 
+/* hero section */
+
 .hero-section {
-    height: 550px;
+    height: 600px;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -59,6 +55,7 @@ a {
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: -25px;
 }
 
 .hero-button {
@@ -69,17 +66,25 @@ a {
     padding: 6px 28px;
     border-radius: 6px;
     font-weight: bold;
+    width: 150px;
 }
 
 .hero-left {
-    height: 300px;
+    height: 250px;
     width: 550px;
     background-color: aquaa;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-right {
-    height: 300px;
+    height: 250px;
     width: 550px;
     background-color: aquaa;
     margin-left: 50px;
+}
+
+.hero-sushi {
+    width: 100%;
 }
