@@ -12,8 +12,8 @@ body {
     align-items: center;
     background-color: #1F2937;
     height: 70px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 338px;
+    padding-right: 408px;
 }
 
 .header-logo {
@@ -32,4 +32,42 @@ body {
 .hero-section {
     height: 550px;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    color: white;
+    background-color: #3882F6;
+    font-size: 17px;
+    border-style: none;
+    padding: 6px 28px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.hero-left {
+    height: 300px;
+    width: 550px;
+    background-color: aquaa;
+}
+
+.hero-right {
+    height: 300px;
+    width: 550px;
+    background-color: aquaa;
+    margin-left: 50px;
 }
