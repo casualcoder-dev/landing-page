@@ -220,3 +220,15 @@ a {
     color: rgb(223, 223, 223);
     font-size: 20px;
 }
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: #1F2937;
+    font-size: 20px;
+    color: white;
+}
