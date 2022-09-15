@@ -14,8 +14,8 @@ body {
     align-items: center;
     background-color: #1F2937;
     height: 70px;
-    padding-left: 270px;
-    padding-right: 338px;
+    padding-left: 262px;
+    padding-right: 330px;
 }
 
 .logo {
@@ -87,4 +87,48 @@ a {
 
 .hero-sushi {
     width: 100%;
+}
+
+/* section a */
+
+.section-a {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-a-container {
+    height: 400px;
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+.section-card {
+    height: 280px;
+    width: 280px;
+}
+
+.section-a-image {
+    height: 280px;
+    width: 280px;
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: #3882F6;
+    object-fit: cover;
+}
+
+.section-a-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.card-description {
+    font-size: 22px;
+    color: #1F2937;
 }
