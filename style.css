@@ -172,3 +172,51 @@ a {
     padding: 0;
     align-self: flex-end;
 }
+
+/* action section */
+
+.action-section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 100px;
+    background-color: #3882F6;
+    align-items: center;
+    padding: 30px 120px;
+    border-radius: 8px;
+}
+
+.action-button {
+    height: 54px;
+    width: 160px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.action-text-one {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.action-text-two {
+    margin: 0;
+    padding: 0;
+    color: rgb(223, 223, 223);
+    font-size: 20px;
+}
