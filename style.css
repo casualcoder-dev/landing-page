@@ -101,6 +101,7 @@ body {
 }
 
 .content-2-container {
+    margin-top: 20px;
     height: 400px;
     display: flex;
     gap: 40px;
@@ -137,6 +138,7 @@ body {
 /* quote section */
 
 .content-3 {
+    padding-top: 20px;
     height: 400px;
     background-color: #E5E7EB;
     display: flex;
@@ -145,7 +147,6 @@ body {
 }
 
 .content-3-container {
-    margin-top: 80px;
     width: 1300px;
     display: flex;
     flex-direction: column;
